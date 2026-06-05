@@ -1,0 +1,793 @@
+{
+    "states": {
+        "Andhra Pradesh": {
+            "Starters": {
+                "Guntur Chicken": {
+                    "image": "guntur_chicken.jpg",
+                    "cooking_time": "45 mins",
+                    "ingredients": [
+                        "500g Chicken, cut into pieces",
+                        "2 tbsp Guntur chili powder",
+                        "1 large onion, finely chopped",
+                        "1 tbsp ginger-garlic paste",
+                        "1 tsp salt (adjust to taste)",
+                        "3 tbsp cooking oil"
+                    ],
+                    "steps": [
+                        "Wash the chicken pieces thoroughly and keep aside.",
+                        "Heat 3 tablespoons of oil in a large pan on medium heat.",
+                        "Add finely chopped onions and sauté until they become golden brown.",
+                        "Add 1 tablespoon of ginger-garlic paste and fry for 1–2 minutes until raw smell goes away.",
+                        "Add chicken pieces to the pan and stir well so that onions and paste coat the chicken evenly.",
+                        "Sprinkle 2 tablespoons of Guntur chili powder and 1 teaspoon salt over the chicken.",
+                        "Mix everything properly to coat chicken with spices.",
+                        "Cover the pan with a lid and cook on low-medium heat for 20–25 minutes, stirring occasionally.",
+                        "Remove the lid and cook for another 5–10 minutes on medium heat until all water evaporates and chicken is dry but tender.",
+                        "Taste and adjust salt if needed. Serve hot."
+                    ]
+                },
+                "Gongura Chicken Fry": {
+                    "image": "gongura_chicken.jpg",
+                    "cooking_time": "30 mins",
+                    "ingredients": [
+                        "500g Chicken, cut into pieces",
+                        "1 cup Gongura leaves, washed and chopped",
+                        "4 green chilies, slit",
+                        "5 cloves garlic, crushed",
+                        "1 inch ginger, crushed",
+                        "1 tsp red chili powder",
+                        "1/2 tsp turmeric powder",
+                        "1/2 tsp cumin seeds",
+                        "Salt to taste",
+                        "3 tbsp oil"
+                    ],
+                    "steps": [
+                        "Wash the chicken and keep aside.",
+                        "Heat 3 tablespoons of oil in a pan over medium heat.",
+                        "Add cumin seeds and let them splutter for a few seconds.",
+                        "Add crushed garlic, crushed ginger, and slit green chilies. Fry for 1–2 minutes until fragrant.",
+                        "Add chicken pieces, 1/2 teaspoon turmeric, 1 teaspoon red chili powder, and salt. Mix well.",
+                        "Cook the chicken uncovered on medium heat for 10 minutes, stirring occasionally.",
+                        "Add chopped Gongura leaves and mix thoroughly.",
+                        "Cover the pan and cook for 10–15 minutes on medium-low heat, stirring once in a while.",
+                        "Check if chicken is cooked completely and the leaves are soft but not mushy.",
+                        "Serve hot as a starter or with rice."
+                    ]
+                },
+                "Punugulu (Crispy Rice Dumplings)": {
+                    "image": "punugulu.jpg",
+                    "cooking_time": "35 mins",
+                    "ingredients": [
+                        "2 cups Idli or Dosa batter",
+                        "1 small onion, finely chopped",
+                        "2 green chilies, finely chopped",
+                        "10–12 curry leaves, chopped",
+                        "Salt to taste",
+                        "Oil for deep frying"
+                    ],
+                    "steps": [
+                        "Take the idli/dosa batter in a bowl.",
+                        "Add finely chopped onions, green chilies, chopped curry leaves, and salt. Mix well.",
+                        "Heat enough oil in a deep frying pan on medium heat.",
+                        "Use a small spoon to drop small portions of batter into hot oil carefully.",
+                        "Fry in batches, turning occasionally until all sides turn golden brown and crispy.",
+                        "Remove fried punugulu using a slotted spoon and place on paper towels to drain excess oil.",
+                        "Serve hot with coconut chutney or tomato ketchup."
+                    ]
+                },
+                "Pesarattu (Green Gram Pancakes)": {
+                    "image": "pesarattu.jpg",
+                    "cooking_time": "30 mins",
+                    "ingredients": [
+                        "1 cup green gram (moong dal), soaked for 3–4 hours",
+                        "2–3 green chilies",
+                        "1 inch ginger piece",
+                        "Salt to taste",
+                        "1–2 tsp oil for cooking"
+                    ],
+                    "steps": [
+                        "Drain the soaked moong dal and grind it with green chilies, ginger, and salt to a smooth batter. Add a little water if needed.",
+                        "Heat a non-stick pan on medium heat.",
+                        "Pour a ladleful of batter onto the pan and spread it thinly in a circular motion.",
+                        "Drizzle 1–2 teaspoons of oil around the edges.",
+                        "Cook for 2–3 minutes until the bottom turns golden brown.",
+                        "Flip carefully and cook the other side for 2 minutes.",
+                        "Remove from pan and serve hot with chutney."
+                    ]
+                },
+                "Mirchi Bajji (Stuffed Chili Fritters)": {
+                    "image": "mirchi_bajji.jpg",
+                    "cooking_time": "25 mins",
+                    "ingredients": [
+                        "10 large green chilies, slit and deseeded",
+                        "1 cup gram flour (besan)",
+                        "2 tbsp rice flour",
+                        "1/2 tsp turmeric powder",
+                        "Salt to taste",
+                        "Water as needed",
+                        "Oil for deep frying"
+                    ],
+                    "steps": [
+                        "Prepare the batter by mixing gram flour, rice flour, turmeric powder, salt, and water to make a thick but smooth paste.",
+                        "Stuff the slit chilies with mashed potato or paneer mixture if desired.",
+                        "Heat enough oil in a deep pan over medium heat.",
+                        "Dip each chili into the batter, ensuring it is fully coated.",
+                        "Carefully drop the coated chili into hot oil and fry until golden brown, turning occasionally.",
+                        "Remove from oil using a slotted spoon and place on paper towels to remove excess oil.",
+                        "Serve hot with tomato ketchup or green chutney."
+                    ]
+                }
+            },
+            "Breakfast": {
+                
+    "Pesarattu (Green Gram Pancakes)": {
+        "image": "pesarattu.jpg",
+        "cooking_time": "30 mins",
+        "ingredients": [
+            "1 cup green gram (moong dal), soaked 3–4 hours",
+            "2–3 green chilies",
+            "1 inch ginger piece",
+            "Salt to taste",
+            "1–2 tsp oil for cooking"
+        ],
+        "steps": [
+            "Drain the soaked moong dal and grind it with green chilies, ginger, and salt to a smooth batter. Add a little water if needed.",
+            "Heat a non-stick pan on medium heat.",
+            "Pour a ladleful of batter onto the pan and spread it thinly in a circular motion.",
+            "Drizzle 1–2 teaspoons of oil around the edges.",
+            "Cook for 2–3 minutes until the bottom turns golden brown.",
+            "Flip carefully and cook the other side for 2 minutes.",
+            "Serve hot with ginger chutney or coconut chutney."
+        ]
+    },
+    "Upma (Rava Upma)": {
+        "image": "upma.jpg",
+        "cooking_time": "20 mins",
+        "ingredients": [
+            "1 cup semolina (rava/sooji)",
+            "1 small onion, finely chopped",
+            "1-2 green chilies, chopped",
+            "1 tsp ginger, grated",
+            "2 tsp ghee or oil",
+            "1/2 tsp mustard seeds",
+            "8-10 curry leaves",
+            "2 1/2 cups water",
+            "Salt to taste",
+            "1 tbsp chopped coriander leaves (optional)"
+        ],
+        "steps": [
+            "Heat ghee or oil in a pan on medium heat.",
+            "Add mustard seeds and let them splutter.",
+            "Add chopped onions, green chilies, ginger, and curry leaves. Sauté until onions are soft.",
+            "Add semolina (rava) and roast lightly for 2–3 minutes until aromatic.",
+            "Boil 2 1/2 cups of water separately and add to the roasted semolina slowly while stirring continuously to avoid lumps.",
+            "Add salt to taste and stir well. Cook on low flame for 3–4 minutes until water is absorbed.",
+            "Turn off heat and cover for 2 minutes.",
+            "Garnish with chopped coriander and serve hot."
+        ]
+    },
+    "Idli (Steamed Rice Cakes)": {
+        "image": "idli.jpg",
+        "cooking_time": "12–15 hrs (soaking + fermentation), 20 mins cooking",
+        "ingredients": [
+            "2 cups rice",
+            "1 cup urad dal (split black gram)",
+            "1/2 tsp fenugreek seeds",
+            "Salt to taste",
+            "Water as needed"
+        ],
+        "steps": [
+            "Wash rice and urad dal separately and soak them in water for 4–6 hours. Soak fenugreek seeds with urad dal.",
+            "Grind urad dal to a smooth, fluffy batter adding little water as needed.",
+            "Grind rice to a slightly coarse batter with water.",
+            "Mix both batters together in a large bowl, add salt, and allow it to ferment overnight or 8–12 hours in a warm place.",
+            "Grease idli molds lightly and pour the batter into each mold.",
+            "Steam the idlis in a steamer or pressure cooker without whistle for 10–12 minutes.",
+            "Remove carefully and serve hot with sambar and coconut chutney."
+        ]
+    },
+    "Dosa (Crispy Rice Crepes)": {
+        "image": "dosa.jpg",
+        "cooking_time": "12–15 hrs fermentation, 20–25 mins cooking",
+        "ingredients": [
+            "2 cups rice",
+            "1 cup urad dal",
+            "1/2 tsp fenugreek seeds",
+            "Salt to taste",
+            "Oil for cooking"
+        ],
+        "steps": [
+            "Wash rice and urad dal separately and soak for 4–6 hours. Soak fenugreek seeds with urad dal.",
+            "Grind urad dal to a smooth, fluffy batter and rice to a slightly coarse batter. Mix together with salt.",
+            "Allow the batter to ferment overnight or 8–12 hours in a warm place.",
+            "Heat a non-stick pan or cast-iron skillet on medium heat and lightly grease with oil.",
+            "Pour a ladleful of batter and spread thinly in a circular motion to form a crepe.",
+            "Drizzle a little oil around edges and cook until the bottom is golden and crisp.",
+            "Flip if desired or serve as is. Serve hot with coconut chutney and sambar."
+        ]
+    },
+    "Medu Vada (Lentil Doughnuts)": {
+        "image": "medu_vada.jpg",
+        "cooking_time": "2–3 hrs soaking, 20 mins cooking",
+        "ingredients": [
+            "1 cup urad dal (split black gram), soaked 2–3 hours",
+            "1 green chili, finely chopped",
+            "1 tsp ginger, grated",
+            "1/2 tsp black pepper",
+            "Salt to taste",
+            "Curry leaves, chopped",
+            "Oil for deep frying"
+        ],
+        "steps": [
+            "Drain the soaked urad dal and grind to a thick, smooth batter without water if possible.",
+            "Add chopped green chili, ginger, black pepper, curry leaves, and salt to the batter and mix well.",
+            "Heat oil in a deep frying pan on medium heat.",
+            "Wet your hands with water and shape small portions of batter into doughnut shapes with a hole in the center.",
+            "Carefully drop the shaped vadas into hot oil and fry until golden brown on all sides.",
+            "Remove using a slotted spoon and drain excess oil on paper towels.",
+            "Serve hot with sambar or coconut chutney."
+        ]
+    },
+    "Upma Pesarattu Combo": {
+        "image": "upma_pesarattu_combo.jpg",
+        "cooking_time": "35 mins",
+        "ingredients": [
+            "1 cup green gram (moong dal), soaked 3–4 hours",
+            "2–3 green chilies",
+            "1 cup semolina (rava/sooji)",
+            "1 small onion, finely chopped",
+            "Salt to taste",
+            "Oil for cooking",
+            "Water as needed"
+        ],
+        "steps": [
+            "Prepare Pesarattu batter by grinding soaked moong dal with green chilies and salt to smooth consistency.",
+            "Prepare Upma by roasting semolina with onions in a pan and cooking with water until fluffy.",
+            "Cook Pesarattu on a non-stick pan until golden and crisp.",
+            "Serve Pesarattu with a scoop of Upma inside or on the side."
+        ]
+    },
+    "Andhra Tomato Upma": {
+        "image": "tomato_upma.jpg",
+        "cooking_time": "25 mins",
+        "ingredients": [
+            "1 cup semolina (rava/sooji)",
+            "1 large tomato, chopped",
+            "1 small onion, chopped",
+            "2 green chilies, chopped",
+            "1/2 tsp mustard seeds",
+            "8-10 curry leaves",
+            "Salt to taste",
+            "2 tsp oil",
+            "2 1/2 cups water"
+        ],
+        "steps": [
+            "Heat oil in a pan, add mustard seeds, let them splutter.",
+            "Add onions, green chilies, and curry leaves, sauté until onions are soft.",
+            "Add chopped tomato and cook for 2–3 minutes until soft.",
+            "Roast semolina lightly in another pan for 2 minutes.",
+            "Add water to the tomato mixture and bring to a boil.",
+            "Gradually add semolina while stirring continuously to avoid lumps.",
+            "Cook on low flame for 3–4 minutes until water is absorbed and upma is fluffy.",
+            "Serve hot garnished with coriander leaves if desired."
+        ]
+    },
+    "Rava Idli (Steamed Semolina Cakes)": {
+        "image": "rava_idli.jpg",
+        "cooking_time": "30 mins",
+        "ingredients": [
+            "1 cup semolina (rava/sooji)",
+            "1 cup yogurt (curd)",
+            "1/2 tsp baking soda",
+            "1 tsp oil",
+            "Salt to taste",
+            "1 tsp mustard seeds",
+            "Curry leaves, chopped",
+            "2–3 green chilies, chopped",
+            "Oil for greasing molds"
+        ],
+        "steps": [
+            "Mix semolina and yogurt to make a thick batter. Add salt and let it rest for 10 minutes.",
+            "Heat 1 tsp oil in a small pan, add mustard seeds, curry leaves, and green chilies. Pour this tempering into the batter.",
+            "Just before steaming, add baking soda and mix gently.",
+            "Grease idli molds lightly with oil and pour batter into molds.",
+            "Steam in a steamer or pressure cooker without whistle for 10–12 minutes.",
+            "Remove carefully and serve hot with coconut chutney and sambar."
+        ]
+    },
+    "Andhra Ragi Dosa": {
+        "image": "ragi_dosa.jpg",
+        "cooking_time": "25–30 mins",
+        "ingredients": [
+            "1 cup ragi flour (finger millet flour)",
+            "1/4 cup rice flour",
+            "Salt to taste",
+            "Water as needed",
+            "Oil for cooking"
+        ],
+        "steps": [
+            "Mix ragi flour, rice flour, and salt in a bowl. Add water gradually to form a pourable batter.",
+            "Heat a non-stick pan on medium flame and drizzle a little oil.",
+            "Pour a ladleful of batter and spread thin to form a crepe.",
+            "Cook for 2–3 minutes until the edges lift and bottom is cooked.",
+            "Flip and cook for another 2 minutes.",
+            "Serve hot with chutney or pickle."
+        ]
+    },
+    
+    "Coconut Chutney": {
+        "image": "coconut_chutney.jpg",
+        "cooking_time": "15 mins",
+        "ingredients": [
+            "1 cup fresh grated coconut",
+            "2–3 green chilies, chopped",
+            "1 inch ginger piece",
+            "2 tbsp roasted chana dal (optional, for thickness)",
+            "Salt to taste",
+            "1/2 cup water (adjust for desired consistency)",
+            "1 tsp oil (for tempering)",
+            "1/2 tsp mustard seeds",
+            "5–6 curry leaves",
+            "1 dry red chili"
+        ],
+        "steps": [
+            "Take fresh grated coconut in a blender.",
+            "Add chopped green chilies, ginger, roasted chana dal, and salt.",
+            "Add 1/2 cup water gradually and grind everything to a smooth paste. Adjust water to get desired consistency.",
+            "Transfer the chutney to a bowl.",
+            "For tempering, heat 1 teaspoon oil in a small pan.",
+            "Add mustard seeds and let them splutter.",
+            "Add curry leaves and dry red chili. Fry for 30 seconds until aromatic.",
+            "Pour the tempering over the chutney and mix gently.",
+            "Serve fresh with idli, dosa, or vada."
+        ]
+    
+},
+        
+    "Pulihora (Tamarind Rice)": {
+        "image": "pulihora.jpg",
+        "cooking_time": "30 mins",
+        "ingredients": [
+            "2 cups cooked rice (preferably cooled)",
+            "2 tbsp tamarind paste",
+            "1 tsp turmeric powder",
+            "2 tsp oil",
+            "1 tsp mustard seeds",
+            "10 curry leaves",
+            "2 green chilies, slit",
+            "2 tsp chana dal (optional)",
+            "2 tsp urad dal (optional)",
+            "Salt to taste",
+            "2 tbsp roasted peanuts"
+        ],
+        "steps": [
+            "Cook 2 cups of rice, fluff with a fork, and allow it to cool to room temperature.",
+            "Heat 2 tsp oil in a pan, add mustard seeds and let them splutter.",
+            "Add chana dal, urad dal, curry leaves, and green chilies. Fry until the dals turn golden brown.",
+            "Add turmeric powder and tamarind paste. Fry for 2–3 minutes until raw tamarind smell goes away.",
+            "Add cooked rice and salt. Mix gently so that rice is evenly coated with the tamarind mixture.",
+            "Add roasted peanuts and mix again carefully.",
+            "Serve at room temperature or slightly warm."
+        ]
+    },
+    "Gongura Pulihora (Roselle Leaves Tamarind Rice)": {
+        "image": "gongura_pulihora.jpg",
+        "cooking_time": "35 mins",
+        "ingredients": [
+            "2 cups cooked rice",
+            "1 cup gongura leaves, washed and chopped",
+            "2 tsp tamarind paste",
+            "1/2 tsp turmeric powder",
+            "1 tsp mustard seeds",
+            "2 tsp oil",
+            "10 curry leaves",
+            "2 green chilies, slit",
+            "Salt to taste",
+            "2 tbsp roasted peanuts"
+        ],
+        "steps": [
+            "Cook and cool rice to room temperature.",
+            "Heat oil in a pan and add mustard seeds, curry leaves, and green chilies. Let them splutter.",
+            "Add chopped gongura leaves and sauté for 3–4 minutes until soft.",
+            "Add turmeric powder and tamarind paste. Cook for 2–3 minutes.",
+            "Add rice and salt. Mix gently to coat rice evenly with the gongura-tamarind mixture.",
+            "Add roasted peanuts and mix carefully.",
+            "Serve warm or at room temperature."
+        ]
+    },
+     
+   
+    "Rava Pongal": {
+        "image": "rava_pongal.jpg",
+        "cooking_time": "25 mins",
+        "ingredients": [
+            "1 cup semolina (rava/sooji)",
+            "1/4 cup moong dal (yellow split gram)",
+            "1/2 tsp black pepper",
+            "1/4 tsp cumin seeds",
+            "1 tbsp ghee",
+            "8-10 curry leaves",
+            "2 cups water",
+            "Salt to taste",
+            "2 tbsp chopped coriander leaves"
+        ],
+        "steps": [
+            "Roast moong dal in a pan for 1-2 minutes until aromatic.",
+            "Boil 2 cups of water in a separate pan and add salt, cumin seeds, black pepper, and curry leaves.",
+            "Gradually add semolina and roasted dal into the boiling water, stirring continuously to avoid lumps.",
+            "Cook on low heat for 8-10 minutes, stirring frequently until the mixture thickens.",
+            "Add ghee and mix well. Cook for another 2 minutes.",
+            "Garnish with chopped coriander leaves and serve hot."
+        ]
+    },
+    "Corn Dosa": {
+        "image": "corn_dosa.jpg",
+        "cooking_time": "30 mins",
+        "ingredients": [
+            "1 cup rice",
+            "1/2 cup corn kernels (fresh or boiled)",
+            "1/4 cup urad dal",
+            "1/2 tsp fenugreek seeds",
+            "Salt to taste",
+            "Oil for cooking"
+        ],
+        "steps": [
+            "Soak rice, urad dal, and fenugreek seeds for 4–6 hours.",
+            "Grind soaked ingredients with corn kernels to a smooth batter. Add water if necessary.",
+            "Allow batter to ferment overnight or for 8–12 hours in a warm place.",
+            "Heat a non-stick pan and pour a ladle of batter, spreading it thin in circular motion.",
+            "Drizzle oil around edges and cook on medium heat until the dosa is golden brown and crisp.",
+            "Flip if desired and cook for another 1–2 minutes.",
+            "Serve hot with chutney or sambar."
+        ]
+    },
+    
+    "Ragi Idli": {
+        "image": "ragi_idli.jpg",
+        "cooking_time": "12–15 hrs fermentation, 20 mins cooking",
+        "ingredients": [
+            "1 cup ragi flour (finger millet flour)",
+            "1/2 cup urad dal, soaked 4–6 hours",
+            "Salt to taste",
+            "Water as needed",
+            "Oil for greasing molds"
+        ],
+        "steps": [
+            "Grind soaked urad dal to a smooth batter.",
+            "Mix ragi flour with urad dal batter and salt. Add water as needed to make a thick but pourable batter.",
+            "Allow batter to ferment overnight or 8–12 hours in a warm place.",
+            "Grease idli molds lightly with oil and pour batter into molds.",
+            "Steam in a steamer or pressure cooker without whistle for 10–12 minutes.",
+            "Remove idlis carefully and serve hot with chutney or sambar."
+        ]
+    }
+    
+
+},
+                
+               
+            
+            "Lunch": {
+                "Andhra Meals": {
+                    "image": "",
+                    "cooking_time": "60 mins",
+                    "ingredients": [
+                        "Rice",
+                        "Sambar",
+                        "Rasam",
+                        "Vegetable curry",
+                        "Pickle"
+                    ],
+                    "steps": [
+                        "Cook rice.",
+                        "Prepare curries.",
+                        "Serve traditionally."
+                    ]
+                },
+                "Gongura Dal": {
+                    "image": "",
+                    "cooking_time": "35 mins",
+                    "ingredients": [
+                        "Toor dal",
+                        "Gongura leaves",
+                        "Chillies",
+                        "Garlic"
+                    ],
+                    "steps": [
+                        "Cook dal.",
+                        "Saute gongura.",
+                        "Mix and temper."
+                    ]
+                }
+            },
+            "Snacks": {
+                "Punugulu": {
+                    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be",
+                    "cooking_time": "20 mins",
+                    "ingredients": [
+                        "Dosa batter",
+                        "Onion",
+                        "Green chilli",
+                        "Oil"
+                    ],
+                    "steps": [
+                        "Mix ingredients.",
+                        "Drop batter balls.",
+                        "Deep fry."
+                    ]
+                },
+                "Chekkalu": {
+                    "image": "https://images.unsplash.com/photo-1617622141675-d3005b9067c5",
+                    "cooking_time": "40 mins",
+                    "ingredients": [
+                        "Rice flour",
+                        "Peanuts",
+                        "Chilli powder",
+                        "Oil"
+                    ],
+                    "steps": [
+                        "Prepare dough.",
+                        "Flatten discs.",
+                        "Deep fry crispy."
+                    ]
+                }
+            },
+            "Dinner": {
+                "Tomato Pappu": {
+                    "image": "https://images.unsplash.com/photo-1662116765994-1e4200c43589",
+                    "cooking_time": "30 mins",
+                    "ingredients": [
+                        "Toor dal",
+                        "Tomatoes",
+                        "Garlic",
+                        "Chilli"
+                    ],
+                    "steps": [
+                        "Cook dal and tomatoes.",
+                        "Mash well.",
+                        "Add tempering."
+                    ]
+                },
+                "Chicken Curry": {
+                    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                    "cooking_time": "45 mins",
+                    "ingredients": [
+                        "Chicken",
+                        "Onion",
+                        "Masala",
+                        "Oil"
+                    ],
+                    "steps": [
+                        "Fry onions.",
+                        "Add chicken.",
+                        "Cook with spices."
+                    ]
+                }
+            }
+        },
+        "Telangana": {
+            "Starters": {
+                "Hyderabadi Chicken 65": {
+                    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                    "cooking_time": "30 mins",
+                    "ingredients": [
+                        "Chicken",
+                        "Chilli powder",
+                        "Garlic",
+                        "Oil"
+                    ],
+                    "steps": [
+                        "Marinate chicken",
+                        "Deep fry",
+                        "Toss with spices"
+                    ]
+                },
+                "Kodi Vepudu": {
+                    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be",
+                    "cooking_time": "25 mins",
+                    "ingredients": [
+                        "Chicken",
+                        "Onion",
+                        "Chilli powder",
+                        "Curry leaves"
+                    ],
+                    "steps": [
+                        "Marinate chicken",
+                        "Cook with spices",
+                        "Serve hot"
+                    ]
+                }
+            },
+            "Breakfast": {
+                "Sarva Pindi": {
+                    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+                    "cooking_time": "25 mins",
+                    "ingredients": [
+                        "Rice flour",
+                        "Peanuts",
+                        "Onion"
+                    ],
+                    "steps": [
+                        "Make dough",
+                        "Flatten",
+                        "Cook on pan"
+                    ]
+                },
+                "Upma Telangana Style": {
+                    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56",
+                    "cooking_time": "20 mins",
+                    "ingredients": [
+                        "Rava",
+                        "Onion",
+                        "Curry leaves",
+                        "Mustard seeds"
+                    ],
+                    "steps": [
+                        "Prepare tempering",
+                        "Add rava",
+                        "Cook till fluffy"
+                    ]
+                }
+            },
+            "Lunch": {
+                "Hyderabadi Biryani": {
+                    "image": "https://images.unsplash.com/photo-1563379091339-03246963d51a",
+                    "cooking_time": "60 mins",
+                    "ingredients": [
+                        "Rice",
+                        "Chicken",
+                        "Spices"
+                    ],
+                    "steps": [
+                        "Cook rice",
+                        "Prepare masala",
+                        "Dum cooking"
+                    ]
+                },
+                "Bagara Khana": {
+                    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                    "cooking_time": "40 mins",
+                    "ingredients": [
+                        "Rice",
+                        "Spices"
+                    ],
+                    "steps": [
+                        "Cook rice with tempering",
+                        "Serve hot"
+                    ]
+                }
+            },
+            "Snacks": {
+                "Osmania Biscuit": {
+                    "image": "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e",
+                    "cooking_time": "30 mins",
+                    "ingredients": [
+                        "Flour",
+                        "Butter",
+                        "Sugar"
+                    ],
+                    "steps": [
+                        "Prepare dough",
+                        "Bake biscuits"
+                    ]
+                },
+                "Samosa Telangana Style": {
+                    "image": "https://images.unsplash.com/photo-1625944525533-473f1b0d6b65",
+                    "cooking_time": "30 mins",
+                    "ingredients": [
+                        "Flour",
+                        "Potatoes",
+                        "Spices"
+                    ],
+                    "steps": [
+                        "Prepare dough",
+                        "Fill potatoes",
+                        "Deep fry"
+                    ]
+                }
+            },
+            "Dinner": {
+                "Bagara Rice": {
+                    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                    "cooking_time": "35 mins",
+                    "ingredients": [
+                        "Rice",
+                        "Spices"
+                    ],
+                    "steps": [
+                        "Cook rice with spices"
+                    ]
+                },
+                "Chicken Curry Telangana": {
+                    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                    "cooking_time": "45 mins",
+                    "ingredients": [
+                        "Chicken",
+                        "Onion",
+                        "Masala"
+                    ],
+                    "steps": [
+                        "Fry onions",
+                        "Cook chicken with spices"
+                    ]
+                }
+            }
+        }
+    },
+    "users": {
+        "9876754535": {
+            "recent_recipes": [
+                {
+                    "name": "Andhra Meals",
+                    "state": "Andhra Pradesh",
+                    "category": "Lunch",
+                    "time": "60 mins",
+                    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950"
+                },
+                {
+                    "name": "Tomato Pappu",
+                    "state": "Andhra Pradesh",
+                    "category": "Dinner",
+                    "time": "30 mins",
+                    "image": "https://images.unsplash.com/photo-1662116765994-1e4200c43589"
+                },
+                {
+                    "name": "Gongura Dal",
+                    "state": "Andhra Pradesh",
+                    "category": "Lunch",
+                    "time": "35 mins",
+                    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+                },
+                {
+                    "name": "Pesarattu",
+                    "state": "Andhra Pradesh",
+                    "category": "Breakfast",
+                    "time": "25 mins",
+                    "image": ""
+                },
+                {
+                    "name": "Guntur Chicken",
+                    "state": "Andhra Pradesh",
+                    "category": "Starters",
+                    "time": "45 mins",
+                    "image": "guntur_chicken.jpg"
+                }
+            ],
+            "saved_recipes": [
+                {
+                    "image": "guntur_chicken.jpg",
+                    "cooking_time": "45 mins",
+                    "ingredients": [
+                        "500g Chicken",
+                        "2 tbsp Guntur chilli powder",
+                        "1 onion",
+                        "Ginger garlic paste",
+                        "Salt",
+                        "Oil"
+                    ],
+                    "steps": [
+                        "Heat oil and fry onions.",
+                        "Add ginger garlic paste.",
+                        "Add chicken and spices.",
+                        "Cook until dry and spicy."
+                    ]
+                },
+                {
+                    "state": "Andhra Pradesh",
+                    "category": "Starters",
+                    "recipe": "Guntur Chicken"
+                },
+                {
+                    "state": "Andhra Pradesh",
+                    "category": "Starters",
+                    "recipe": "Gongura Chicken Fry"
+                },
+                {
+                    "state": "Andhra Pradesh",
+                    "category": "Breakfast",
+                    "recipe": "Pesarattu"
+                }
+            ]
+        }
+    }
+}

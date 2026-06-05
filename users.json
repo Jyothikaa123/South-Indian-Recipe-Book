@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+
+<style>
+body{font-family:Poppins;background:#FFF8E7;margin:0;}
+
+header,footer{
+background:#8B0000;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.section{
+padding:30px;
+}
+
+.card{
+background:white;
+padding:15px;
+margin:10px;
+border-radius:10px;
+box-shadow:0 3px 8px rgba(0,0,0,.2);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Your Food Profile</h2>
+<p>Relive your recent tastes & saved favourites</p>
+</header>
+
+<div class="section">
+
+<h2>🕒 Recently Viewed</h2>
+<div class="grid">
+{% for recipe in recent_recipes %}
+<div class="card">
+<h3>{{ recipe.name }}</h3>
+<p>⏱ {{ recipe.time }}</p>
+<a href="/recipe/{{ recipe.state }}/{{ recipe.category }}/{{ recipe.name }}">
+View Again →
+</a>
+</div>
+{% endfor %}
+</div>
+<h3>⭐ Saved Recipes</h3>
+{% for item in saved_recipes %}
+
+<a href="{{ url_for('recipe_details',
+    state=item.state,
+    category=item.category,
+    recipe=item.recipe) }}">
+
+<img src="{{ url_for('static',
+    filename='recipe_images/' + item.details.image) }}">
+
+<h3>{{ item.recipe }}</h3>
+
+<p>⏱ {{ item.details.cooking_time }}</p>
+
+</a>
+
+{% endfor %}
+<a href="/logout">Logout</a>
+
+</div>
+
+<footer>
+<p>❤️ Your recipes all at your hand.</p>
+</footer>
+
+</body>
+</html>

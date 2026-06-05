@@ -1,0 +1,295 @@
+from flask import Flask, render_template, request, redirect, url_for, session
+import json
+import os
+from urllib.parse import unquote
+app = Flask(__name__)
+app.secret_key = "south_indian_food"
+
+DATA_FILE = "recipes.json"
+USERS_FILE = "users.json"
+
+
+# ---------------- LOAD RECIPES ----------------
+def load_recipes():
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+# ---------------- SAVE RECIPES ----------------
+def save_recipes(data):
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+# ---------------- USERS ----------------
+def load_users():
+
+    if not os.path.exists(USERS_FILE):
+        return {}
+
+    
+    if os.path.getsize(USERS_FILE) == 0:
+        return {}
+
+    with open(USERS_FILE, "r") as f:
+        return json.load(f)
+
+
+def save_users(data):
+    with open(USERS_FILE, "w") as f:
+        json.dump(data, f, indent=4)
+
+
+# ================= HOME =================
+@app.route("/")
+def home():
+    return render_template("home.html", user=session.get("user"))
+
+
+# ================= CATEGORIES =================
+@app.route("/categories/<state>")
+def categories(state):
+
+    categories_list = [
+        "Starters",
+        "Breakfast",
+        "Lunch",
+        "Snacks",
+        "Dinner"
+    ]
+
+    return render_template(
+        "categories.html",
+        state=state,
+        categories=categories_list,
+        user=session.get("user")
+    )
+
+
+# ================= RECIPES LIST =================
+@app.route("/recipes/<state>/<category>")
+def recipes(state, category):
+
+    data = load_recipes()["states"]
+
+    if state not in data:
+        return "State not found", 404
+
+    if category not in data[state]:
+        return "Category not found", 404
+
+    recipes = data[state][category]
+
+    return render_template(
+        "recipes.html",
+        state=state,
+        category=category,
+        recipes=recipes,
+        user=session.get("user")
+    )
+
+
+# ================= RECIPE DETAILS =================
+
+@app.route("/recipe/<state>/<category>/<recipe>")
+def recipe_details(state, category, recipe):
+
+    recipe = unquote(recipe)   # ⭐ IMPORTANT FIX
+    data = load_recipes()["states"]
+    recipe_data = data[state][category][recipe]
+
+    # ---------- SAVE RECENT ----------
+    if "user" in session:
+        username = session["user"]
+
+        full_data = load_recipes()
+        users=load_users()
+        user_data = users.setdefault(username, {})
+        recent = user_data.setdefault("recent_recipes", [])
+
+        recent_item = {
+            "name": recipe,
+            "state": state,
+            "category": category,
+            "time": recipe_data["cooking_time"],  # ✅ FIXED
+            "image": recipe_data["image"]
+        }
+
+        # remove duplicate
+        recent = [r for r in recent if r["name"] != recipe]
+
+        # newest first
+        recent.insert(0, recent_item)
+
+        # keep last 5
+        user_data["recent_recipes"] = recent[:9]
+
+        save_recipes(full_data)
+
+    return render_template(
+        "recipe_details.html",
+        state=state,
+        category=category,
+        recipe=recipe,
+        details=recipe_data,
+        user=session.get("user")
+    )
+
+
+# ================= SAVE RECIPE =================
+
+@app.route("/save_recipe/<state>/<category>/<recipe>", methods=["POST"])
+def save_recipe(state, category, recipe):
+
+    # ---------- NOT LOGGED IN ----------
+    if "user" not in session:
+        return redirect(url_for("login"))
+
+    username = session["user"]
+
+    data = load_recipes()
+
+    # create users section
+    users = data.setdefault("users", {})
+    user_data = users.setdefault(username, {})
+    saved = user_data.setdefault("saved_recipes", [])
+
+    # ✅ save recipe reference (NOT full recipe)
+    recipe_ref = {
+        "state": state,
+        "category": category,
+        "recipe": recipe
+    }
+
+    # avoid duplicates
+    if recipe_ref not in saved:
+        saved.append(recipe_ref)
+
+    save_recipes(data)
+
+    return redirect(url_for(
+        "recipe_details",
+        state=state,
+        category=category,
+        recipe=recipe
+    ))
+@app.route("/search")
+def search():
+
+    query = request.args.get("q", "").lower().strip()
+
+    data = load_recipes()["states"]
+    results = []
+
+    for state in data:
+        for category in data[state]:
+            for recipe, details in data[state][category].items():
+
+                # searchable text
+                search_text = f"{recipe} {state} {category}".lower()
+
+                # MATCH recipe OR state OR category
+                if query in search_text:
+
+                    results.append({
+                        "name": recipe,
+                        "state": state,
+                        "category": category,
+                        "time": details["cooking_time"]
+                    })
+
+    return render_template(
+        "search_results.html",
+        results=results,
+        query=query,
+        user=session.get("user")
+    )
+# ================= LOGIN =================
+@app.route("/login", methods=["GET", "POST"])
+def login():
+
+    if request.method == "POST":
+
+        username = request.form["username"]
+        password = request.form["password"]
+
+        users = load_users()
+
+        if username in users and users[username]["password"] == password:
+            session["user"] = username
+            return redirect(url_for("home"))
+
+    return render_template("login.html")
+
+
+# ================= SIGNUP =================
+@app.route("/signup", methods=["GET", "POST"])
+def signup():
+
+    if request.method == "POST":
+
+        username = request.form["username"]
+        password = request.form["password"]
+
+        users = load_users()
+
+        if username not in users:
+            users[username] = {
+                "password": password,
+                "saved": [],
+                "recent": []
+            }
+            save_users(users)
+
+        session["user"] = username
+        return redirect(url_for("home"))
+
+    return render_template("signup.html")
+
+
+# ================= PROFILE =================
+
+@app.route("/profile")
+def profile():
+
+    if "user" not in session:
+        return redirect(url_for("login"))
+
+    username = session["user"]
+    data = load_recipes()
+
+    user_data = data.get("users", {}).get(username, {})
+
+    # ---------- BUILD SAVED RECIPES ----------
+    saved_refs = user_data.get("saved_recipes", [])
+    saved = []
+
+    for ref in saved_refs:
+        try:
+            recipe_data = data["states"][ref["state"]][ref["category"]][ref["recipe"]]
+            saved.append({
+                "state": ref["state"],
+                "category": ref["category"],
+                "recipe": ref["recipe"],
+                "details": recipe_data
+            })
+        except:
+            pass
+
+    # ---------- RECENTLY VIEWED ----------
+    recent = user_data.get("recent_recipes", [])  # use it directly
+    # each item in recent already has: name, state, category, time, image
+
+    return render_template(
+        "profile.html",
+        saved_recipes=saved,
+        recent_recipes=recent,
+        user=username
+    )
+# ================= LOGOUT =================
+@app.route("/logout")
+def logout():
+    session.pop("user", None)
+    return redirect(url_for("home"))
+
+
+# ================= RUN =================
+if __name__ == "__main__":
+    app.run(debug=True)
